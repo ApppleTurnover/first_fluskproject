@@ -4,9 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>The title</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+  <title>SomeTitle</title>
 </head>
 <body>
-  <h1>Hello World!</h1>
+  <nav class="navbar-dark">
+    <a href="#">Главная</a>
+    <a href="#">Контакты</a>
+    <a href="#">О нас</a>
+    <a href="#">Войти</a>
+    <hr class="">
+  </nav>
+<div class="container">
+  <form class="form-check-input" action="#" method="POST"> 
+    <input class="input-group" type="text" name="" id="">
+    <input class="btn-light" type="submit" value="SomeButton">
+  </form>
+</div>
 </body>
 </html>
